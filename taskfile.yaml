@@ -1,0 +1,11 @@
+version: '3'
+
+tasks:
+    default:
+        desc: lists all scripts
+        cmds:
+            - task --list-all
+    build:
+        desc: builds program
+        cmds:
+            - go build -o ./build/pit
